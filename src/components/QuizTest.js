@@ -23,8 +23,6 @@ const QuizTest = () => {
                         question0={question0}
                     ></Question>)
                 }
-
-
             </div>
         </div>
     );

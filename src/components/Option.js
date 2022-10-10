@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Option = ({ option, handelCorrectAnswer }) => {
-    // console.log(option);
     return (
         <div className='text-left font-semibold text-xl pl-2 py-2'>
             <button

@@ -5,9 +5,9 @@ import { CartesianGrid, BarChart, Legend, Bar, Tooltip, XAxis, YAxis, } from 're
 const Statistics = () => {
     const data = useLoaderData().data
     return (
-        <div>
+        <div >
             <h1 className='text-center font-bold text-3xl text-gray-700 py-8'>The Quiz Statistics</h1>
-            <BarChart width={730} height={500} data={data}>
+            <BarChart className='mx-auto' width={730} height={500} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis />

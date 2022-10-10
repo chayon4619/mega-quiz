@@ -20,7 +20,13 @@ const QuizCard = ({ singleQuiz }) => {
                     </div>
                     <button
                         onClick={handelNavigate}
-                        type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-400 text-gray-900">Start quiz</button>
+                        type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-300 hover:bg-violet-500 text-gray-900">Start quiz
+                        <span className='ml-2'>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </span>
+                    </button>
                 </div>
             </div>
         </div>

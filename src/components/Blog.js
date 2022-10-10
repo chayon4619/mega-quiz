@@ -12,7 +12,7 @@ const Blog = () => {
                         <div className="flex items-center mt-8 space-x-4">
                             <div>
                                 <h3 className="text-sm font-medium text-gray-900">Monjur Rahman</h3>
-                                <time datetime="2021-02-18" className="text-sm text-gray-700">Oct 11th 2022</time>
+                                <time className="text-sm text-gray-700">Oct 11th 2022</time>
                             </div>
                         </div>
                     </article>
@@ -27,7 +27,7 @@ const Blog = () => {
                         <div className="flex items-center mt-8 space-x-4">
                             <div>
                                 <h3 className="text-sm font-medium text-gray-900">Monjur Rahman</h3>
-                                <time datetime="2021-02-18" className="text-sm text-gray-700">Oct 11th 2022</time>
+                                <time className="text-sm text-gray-700">Oct 11th 2022</time>
                             </div>
                         </div>
                     </article>
@@ -41,14 +41,12 @@ const Blog = () => {
                         <div className="flex items-center mt-8 space-x-4">
                             <div>
                                 <h3 className="text-sm font-medium text-gray-900">Monjur Rahman</h3>
-                                <time datetime="2021-02-18" className="text-sm text-gray-700">Oct 11th 2022</time>
+                                <time className="text-sm text-gray-700">Oct 11th 2022</time>
                             </div>
                         </div>
                     </article>
                 </div>
-
             </div>
-
         </div>
     );
 };

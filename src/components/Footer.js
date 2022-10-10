@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -16,22 +17,22 @@ const Footer = () => {
                         </span>
                         <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
                             <li>
-                                <a rel="noopener noreferrer" href="#">Terms of Use</a>
+                                <Link to="/">Terms of Use</Link>
                             </li>
                             <li>
-                                <a rel="noopener noreferrer" href="#">Privacy</a>
+                                <Link to="/">Privacy</Link>
                             </li>
                         </ul>
                     </div>
                     <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
                         <li>
-                            <a rel="noopener noreferrer" href="#">Instagram</a>
+                            <Link to="/">Instagram</Link>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" href="#">Facebook</a>
+                            <Link to="/">Facebook</Link>
                         </li>
                         <li>
-                            <a rel="noopener noreferrer" href="#">Twitter</a>
+                            <Link to="/">Twitter</Link>
                         </li>
                     </ul>
                 </div>
