@@ -1,7 +1,7 @@
 # Mega Quiz repository
 
-## Hosted in netlify
- [Project Live Link](https://mega-quiz-09.netlify.app/).
+## Live Link
+Hosted in netlify [Mega Quiz](https://mega-quiz-09.netlify.app/).
 
 ## Available Scripts
 
@@ -11,6 +11,9 @@ In the project directory, used:
 ### React Router 
 ### Tailwind
 ### JavaScript
+
+# Resources
+Resources used :
 ### HeroIcon, Toast, SweetAlert
 ### Rechart
 <!-- ### `npm start`
