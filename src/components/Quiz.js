@@ -4,7 +4,6 @@ import QuizCard from './QuizCard';
 
 const Quiz = () => {
     const quiz = useLoaderData().data
-    // console.log(quiz);
 
     return (
         <div className="grid grid-cols-1 mx-20 my-10 gap-10 lg:grid-cols-3 sm:grid-cols-2">

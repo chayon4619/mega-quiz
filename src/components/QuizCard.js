@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const QuizCard = ({ singleQuiz }) => {
-    const { id, logo, name, total } = singleQuiz
+    const { id, logo, name, total } = singleQuiz;
+
+    const navigate = useNavigate();
+    const handelNavigate = () => {
+        navigate(`/quiz/${id}`)
+    }
+
     return (
         <div>
             <div className="max-w-xs rounded-md shadow-md bg-gray-900 text-gray-100">
@@ -11,7 +18,9 @@ const QuizCard = ({ singleQuiz }) => {
                         <h2 className="text-3xl font-semibold tracking-wide">{name}</h2>
                         <p className="text-gray-100">Total Quiz : {total}</p>
                     </div>
-                    <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-400 text-gray-900">Start quiz</button>
+                    <button
+                        onClick={handelNavigate}
+                        type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-violet-400 text-gray-900">Start quiz</button>
                 </div>
             </div>
         </div>
