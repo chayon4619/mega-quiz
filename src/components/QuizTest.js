@@ -18,9 +18,9 @@ const QuizTest = () => {
                     </h2>
                 </div>
                 {
-                    questions.map(question => <Question
-                        key={question.id}
-                        question={question}
+                    questions.map(question0 => <Question
+                        key={question0.id}
+                        question0={question0}
                     ></Question>)
                 }
 
