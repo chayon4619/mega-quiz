@@ -40,7 +40,7 @@ const Question = ({ question0 }) => {
                 </span>
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <h2 className="max-w-lg mb-6 font-sans  text-3xl font-bold leading-none tracking-tight text-gray-700 sm:text-3xl md:mx-auto">
-                        {question}
+                        Q:-  {question}
                     </h2>
                 </div>
                 <div className=" max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">
